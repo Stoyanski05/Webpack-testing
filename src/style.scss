@@ -1,0 +1,9 @@
+$lort: blueviolet;
+
+@mixin tingeling($sss) {
+    background-color: $sss;
+}
+
+body{
+    @include tingeling(salmon)
+}
